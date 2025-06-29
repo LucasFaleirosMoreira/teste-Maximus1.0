@@ -1,0 +1,65 @@
+.body {
+  display: flex;
+}
+
+
+
+.barraLateral {
+    background: linear-gradient(180deg, #5085ca 0%, rgba(30, 29, 79, 0.8) 100%);
+    height: 100vh;
+    width: 80px;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out, width 0.5s ease-in-out;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+
+    & button {
+        background: transparent;
+        border: none;
+    }
+
+    & button:hover {
+        cursor: pointer;
+       /* background-color: rgba(109, 34, 179, 0.486); */
+    }
+    
+}
+
+.iconLateral {
+    width: 50px;
+    margin: 5px;
+    padding: 5px;
+    transition: background-color 0.3s ease-in-out, width 0.2s ease-in-out;
+
+}
+
+.iconLateral:hover {
+    cursor: pointer;
+    background-color: brown;
+    width: 55px;
+
+}
+
+.entrada {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.entrada h1 {
+    color: #412662;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.entrada p {
+    color: #333;
+    font-size: 1.2em;
+    max-width: 600px;
+    line-height: 1.6;
+}
